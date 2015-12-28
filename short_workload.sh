@@ -3,7 +3,7 @@
 rm -r /dev/shm/short_bench_movie
 mkdir /dev/shm/short_bench_movie
 
-cp ~/FullHD.mp4 /dev/shm/short_bench_movie
+cp ~/FullHD.mp4 /dev/shm/short_bench_movie/
 cd /dev/shm/short_bench_movie
 
 echo "10 seconds until stating Encode"

@@ -23,7 +23,7 @@ function watz_chk() {
 #
 for cmd_nm in ffmpeg wget gcc make gnome-terminal top i7z 
 do
-	command_chk cmd_nm
+	command_chk $cmd_nm
 done
 
 
@@ -34,3 +34,4 @@ sleep 5
 
 #short workload
 gnome-terminal --geometry=100x50+300+300 -e "sh -c 'sh short_workload.sh'"
+gnome-screenshot &
